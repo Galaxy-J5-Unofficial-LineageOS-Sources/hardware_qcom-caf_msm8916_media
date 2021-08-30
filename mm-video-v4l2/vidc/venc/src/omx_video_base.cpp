@@ -49,7 +49,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <sys/prctl.h>
 #ifdef _ANDROID_ICS_
 #include <media/hardware/HardwareAPI.h>
-#include <gralloc_priv.h>
+#include "gralloc_priv.h"
 #endif
 #ifndef _ANDROID_
 #include <glib.h>
