@@ -84,7 +84,7 @@ extern "C" {
 #include <unistd.h>
 
 #if defined (_ANDROID_ICS_)
-#include <gralloc_priv.h>
+#include "gralloc_priv.h"
 #endif
 
 #include <pthread.h>
